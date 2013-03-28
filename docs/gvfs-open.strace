@@ -1,0 +1,104 @@
+execve("/usr/bin/gvfs-open", ["gvfs-open", "magnet:?xt=urn:btih:d8acaa24ae95"...], [/* 63 vars */]) = 0
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libgthread-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libffi.so.5", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 3
+statfs("/sys/fs/selinux", {f_type=0xf97cff8c, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+statfs("/sys/fs/selinux", {f_type=0xf97cff8c, f_bsize=4096, f_blocks=0, f_bfree=0, f_bavail=0, f_files=0, f_ffree=0, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+stat("/sys/fs/selinux", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/gvfs.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/share/locale/locale.alias", O_RDONLY) = 3
+stat("/home/scottt/.local/share/applications/mimeinfo.cache", {st_mode=S_IFREG|0664, st_size=661, ...}) = 0
+open("/home/scottt/.local/share/applications/mimeinfo.cache", O_RDONLY) = 3
+stat("/home/scottt/.local/share//mime/mime.cache", {st_mode=S_IFREG|0664, st_size=1088, ...}) = 0
+stat("/home/scottt/.local/share//mime/mime.cache", {st_mode=S_IFREG|0664, st_size=1088, ...}) = 0
+open("/home/scottt/.local/share//mime/mime.cache", O_RDONLY) = 3
+stat("/usr/local/share//mime/mime.cache", 0x7fffb61f8930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/share//mime/globs2", 0x7fffb61f8930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/share//mime/globs", 0x7fffb61f8930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/share//mime/magic", 0x7fffb61f8930) = -1 ENOENT (No such file or directory)
+open("/usr/local/share//mime/aliases", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share//mime/subclasses", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share//mime/icons", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share//mime/generic-icons", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/share//mime/mime.cache", {st_mode=S_IFREG|0644, st_size=129692, ...}) = 0
+open("/usr/share//mime/mime.cache", O_RDONLY) = 3
+stat("/home/scottt/.local/share/applications/defaults.list", 0x7fffb61f8aa0) = -1 ENOENT (No such file or directory)
+stat("/home/scottt/.local/share/applications/mimeapps.list", {st_mode=S_IFREG|0664, st_size=2319, ...}) = 0
+open("/home/scottt/.local/share/applications/mimeapps.list", O_RDONLY) = 3
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/share/applications/mimeinfo.cache", {st_mode=S_IFREG|0644, st_size=3030, ...}) = 0
+open("/usr/local/share/applications/mimeinfo.cache", O_RDONLY) = 3
+stat("/usr/local/share/applications/defaults.list", {st_mode=S_IFREG|0644, st_size=3394, ...}) = 0
+open("/usr/local/share/applications/defaults.list", O_RDONLY) = 3
+stat("/usr/local/share/applications/mimeapps.list", 0x7fffb61f8aa0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/applications/mimeinfo.cache", {st_mode=S_IFREG|0644, st_size=32848, ...}) = 0
+open("/usr/share/applications/mimeinfo.cache", O_RDONLY) = 3
+stat("/usr/share/applications/defaults.list", {st_mode=S_IFREG|0644, st_size=15530, ...}) = 0
+open("/usr/share/applications/defaults.list", O_RDONLY) = 3
+stat("/usr/share/applications/mimeapps.list", 0x7fffb61f8aa0) = -1 ENOENT (No such file or directory)
+open("/home/scottt/.local/share/applications/rtorrent-helper.desktop", O_RDONLY) = 3
+access("/usr/lib64/qt-3.3/bin/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/lib64/ccache/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/bin/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/bin/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/bin/rtorrent-helper", X_OK)    = -1 ENOENT (No such file or directory)
+access("/usr/local/sbin/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/sbin/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/libexec/sdcc/rtorrent-helper", X_OK) = -1 ENOENT (No such file or directory)
+access("/home/scottt/bin/rtorrent-helper", X_OK) = 0
+stat("/home/scottt/bin/rtorrent-helper", {st_mode=S_IFREG|0775, st_size=415, ...}) = 0
+openat(AT_FDCWD, "/usr/lib64/gio/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+stat("/usr/lib64/gio/modules/giomodule.cache", {st_mode=S_IFREG|0644, st_size=382, ...}) = 0
+open("/usr/lib64/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/gio/modules/giomodule.cache", O_RDONLY) = 8
+stat("/usr/lib64/gio/modules/libgvfsdbus.so", {st_mode=S_IFREG|0755, st_size=205072, ...}) = 0
+stat("/usr/lib64/gio/modules/libgiolibproxy.so", {st_mode=S_IFREG|0755, st_size=15584, ...}) = 0
+stat("/usr/lib64/gio/modules/libgiognutls.so", {st_mode=S_IFREG|0755, st_size=105936, ...}) = 0
+stat("/usr/lib64/gio/modules/libgsettingsgconfbackend.so", {st_mode=S_IFREG|0755, st_size=28712, ...}) = 0
+stat("/usr/lib64/gio/modules/libdconfsettings.so", {st_mode=S_IFREG|0755, st_size=46216, ...}) = 0
+stat("/usr/lib64/gio/modules/libgiognomeproxy.so", {st_mode=S_IFREG|0755, st_size=20016, ...}) = 0
+stat("/usr/lib64/gio/modules/libgioremote-volume-monitor.so", {st_mode=S_IFREG|0755, st_size=122448, ...}) = 0
+stat("/usr/lib64/gio/modules/libgiofam.so", {st_mode=S_IFREG|0755, st_size=15688, ...}) = 0
+stat("/usr/lib64/gio/modules/libgvfsdbus.so", {st_mode=S_IFREG|0755, st_size=205072, ...}) = 0
+open("/usr/lib64/gio/modules/libgvfsdbus.so", O_RDONLY|O_CLOEXEC) = 7
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libgvfscommon.so.0", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libbluray.so.1", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libudev.so.1", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libxml2.so.2", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 7
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 7
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/gvfs/modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4150, si_status=0, si_utime=0, si_stime=0} ---
++++ exited with 0 +++

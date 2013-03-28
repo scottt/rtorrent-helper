@@ -1,0 +1,3 @@
+[Default Applications]
+application/x-bittorrent=rtorrent-helper.desktop
+x-scheme-handler/magnet=rtorrent-helper.desktop

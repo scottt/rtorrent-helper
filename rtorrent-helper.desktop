@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=rTorrent Helper
+GenericName=BitTorrent Client
+Comment=Download and share files over BitTorrent
+Exec=rtorrent-helper %U
+Terminal=false
+TryExec=rtorrent-helper
+Type=Application
+StartupNotify=false
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Categories=Network;FileTransfer;P2P;
+X-Desktop-File-Install-Version=0.21

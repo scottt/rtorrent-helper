@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+
+# Use rtorrent to open a torrent file or magnet link URL.
+# Usage:
+# $ rtorrent-helper T.torrent
+# $ rtorrent-helper 'magnet:?xt=urn:btih:XXXXX...'
+
+# Requires 'rtxmlrpc' from the pyroscope project which can be installed with:
+# $ pip-python install --user pyrocore
+
+import sys
+import os
+import subprocess
+
+def program_name():
+    return os.path.basename(sys.argv[0])
+
+def main(args):
+    if not args:
+        sys.stderr.write('%s URL-or-TORRENT-FILE [...]\n' % (program_name(),))
+        sys.exit(2)
+
+    RTXMLRPC_BIN_DIR = os.path.expanduser('~/.local/bin')
+
+    if RTXMLRPC_BIN_DIR:
+        os.environ['PATH'] = RTXMLRPC_BIN_DIR + os.path.pathsep + os.environ['PATH']
+
+    for i in args:
+        subprocess.check_call(['rtxmlrpc', 'load_start', '-v', i])
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
